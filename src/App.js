@@ -1,10 +1,11 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eligendi!
-    </div>
+    <>
+    <Navbar />
+    </>
   )
 }
 
