@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div className='container mt-28 flex flex-col justify-center items-center mx-auto px-8 md:px-14 lg:px-24 w-full '>
 
-        <h1 className='text-4xl font-Quicksand font-bold'>Frontend Developer Based in Hamburg,<br/> With a Passion of working With And <span className='font-bold text-5xl leading-normal font-Poppins'>Building Modren and Responsive Web Technologies.</span> </h1>
+        <h1 className='text-4xl font-Quicksand font-bold'>Frontend Developer Based in Hamburg,<br/> With a Passion of working With And <span className='font-bold text-5xl leading-normal font-Poppins'>Building Modern and Responsive Web Technologies.</span> </h1>
         <h2 className='text-3xl font-bold mt-10 font-Quicksand'>Currently Working With These Technologies:</h2>
          <div className='flex flex-wrap text-center items-center text-5xl mt-12 space-x-7 space-y-6 '>
 
