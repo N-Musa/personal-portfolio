@@ -7,7 +7,7 @@ const Dropdown = ({ isOpen, toggle }) => {
     return (
 
         <div className={isOpen
-            ? ' flex justify-center flex-col items-center bg-Orange text-white space-y-5 p-5 cursor-pointer'
+            ? ' flex justify-center flex-col items-center bg-Orange text-white text-xl space-y-2 space-y-6 p-5 cursor-pointer'
             : 'hidden'}
             onClick={toggle}>
 
@@ -15,7 +15,7 @@ const Dropdown = ({ isOpen, toggle }) => {
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Hire me</Link>
 
-            <div className='flex space-x-8 text-xl p-2'>
+            <div className='flex space-x-8 text-3xl p-2'>
                 <a href="https://github.com/N-Musa?tab=repositories" target='_blank' rel='noopener noreferrer'>
                     <AiFillGithub />
                 </a>
