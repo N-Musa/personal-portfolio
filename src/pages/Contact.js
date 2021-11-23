@@ -1,11 +1,16 @@
 import { useRef } from 'react'
 import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { FiSend } from 'react-icons/fi'
 import Lizard from '../assets/end-of-road.gif'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { BsTwitter } from 'react-icons/bs';
 
 const Contact = () => {
+
+    const notify = () => toast.success('Thank you! your message was sent')
+
 
     const form = useRef();
 
@@ -30,7 +35,7 @@ const Contact = () => {
                     <div className=" text-center">
                         <img src={Lizard} alt='end-of-road-gif' />
                         <a href='tel:+17647007028'>(+49) 176 4700 7029</a>
-                        <a href="mailto:n.musa@gmx.net" className="underline mt-3 block text-lg">n.musa@gmx.net</a>
+                        <a href="mailto:n.musa@gmx.net" className="underline mt-3 block text-lg">m.nuradin@outlook.com</a>
                         <div className='flex space-x-8 text-3xl mt-3 p-1  justify-center'>
                             <a href="https://github.com/N-Musa?tab=repositories" target='_blank' rel='noopener noreferrer'>
                                 <AiFillGithub />
@@ -57,11 +62,24 @@ const Contact = () => {
                             name='message'
                             placeholder='Message...'></textarea>
                         <button
+                            onClick={notify}
                             type='submit'
                             value='Send'
                             className='bg-Orange p-2 rounded-md text-white flex items-center justify-center'>Send it!
                             <span className='text-xl m-1'><FiSend /></span>
                         </button>
+                        <ToastContainer
+                            position="top-center"
+                            autoClose={4300}
+                            hideProgressBar={false}
+                            newestOnTop={false}
+                            closeOnClick
+                            rtl={false}
+                            pauseOnFocusLoss
+                            draggable
+                            pauseOnHover
+                            theme='colored'
+                        />
                     </form>
                 </div>
             </section>
