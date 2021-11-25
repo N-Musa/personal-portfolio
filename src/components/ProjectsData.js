@@ -37,7 +37,7 @@ export const projectsData = [
     },
     {
       name: 'Federal Elections Votes Count API',
-      image: 'https://raw.githubusercontent.com/N-Musa/polls/master/Screenshot%202021-11-25%20at%201.20.12%20AM.png',
+      image: '',
       description:
         'Using JSON server Node Module I spinned up this mock REST API containing Polls Data(2021) for a projects that I am currently working on ',
         stack: [ ],
