@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      spacing: {
+          semi: '28rem'
+      },
       fontFamily: {
         Poppins: ["'Poppins', sans-serif"],
         Quicksand: ["'Quicksand', sans-serif"]
@@ -13,7 +16,6 @@ module.exports = {
         Orange: "#E15638",
         Black: "#24242c",
         Text: "#fefaec",
-
       }
 
     },
