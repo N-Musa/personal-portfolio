@@ -43,7 +43,7 @@ const Contact = () => {
                             <a href="https://twitter.com/iMusaO9" target='_blank' rel='noopener noreferrer'>
                                 <BsTwitter />
                             </a>
-                            <a href="#" target='_blank' rel='noopener noreferrer'>
+                            <a href="https://linkedin.com" target='_blank' rel='noopener noreferrer'>
                                 <AiFillLinkedin />
                             </a>
                         </div>
