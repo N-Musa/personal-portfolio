@@ -7,3 +7,14 @@ html, body{
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+.nav-links{
+    transition: 0.2s;
+}
+.nav-links:hover{
+    letter-spacing: 1px;
+}
+.nav-links:focus{
+    font-weight: 700;
+    font-size: 17.5px;
+    color: #E15638;
+}
