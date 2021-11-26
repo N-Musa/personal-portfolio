@@ -34,9 +34,9 @@ const Contact = () => {
                 <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-16">
                     <div className=" text-center">
                         <img src={Lizard} alt='end-of-road-gif' />
-                        <a href='tel:+17647007028'>(+49) 176 4700 7029</a>
-                        <a href="mailto:n.musa@gmx.net" className="underline mt-3 block text-lg">m.nuradin@outlook.com</a>
-                        <div className='flex space-x-8 text-3xl mt-3 p-1  justify-center'>
+                        <a href="mailto:m.nuradin@outlook.com" className="underline mt-3 block text-lg">m.nuradin@outlook.com    
+                        </a>
+                        <div className='flex space-x-8 text-3xl mt-4 p-1  justify-center'>
                             <a href="https://github.com/N-Musa?tab=repositories" target='_blank' rel='noopener noreferrer'>
                                 <AiFillGithub />
                             </a>
