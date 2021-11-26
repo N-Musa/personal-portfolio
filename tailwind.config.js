@@ -21,7 +21,11 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      padding: ['hover'],
+      backgroundColor: ['active'],
+      'postcss-focus-visible': {},
+    },
   },
   plugins: [],
 }
