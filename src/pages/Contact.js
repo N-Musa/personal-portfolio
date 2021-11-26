@@ -52,11 +52,13 @@ const Contact = () => {
                         <label className="block mb-2 text-xl font-bold">Name</label>
                         <input className="w-full border border-input-border bg-input px-4 py-4"
                             name='name'
-                            placeholder='Name...' />
+                            placeholder='Name...' 
+                            required/>
                         <label className="block mb-2 text-xl font-bold">Email</label>
                         <input type="email" className="w-full border border-input-border bg-input px-4 py-4"
                             name='email'
-                            placeholder='Email..' />
+                            placeholder='Email..'
+                            required />
                         <label className="block text-xl font-bold">Message</label>
                         <textarea type="email" className="w-full border border-input-border bg-input px-4 py-4 h-40 resize-none"
                             name='message'
