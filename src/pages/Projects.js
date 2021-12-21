@@ -14,9 +14,8 @@ const Projects = () => {
                 
                 {projectsData.map((project, index) => (
                     <div className='transform duration-500 hover:-translate-y-1 cursor-pointer shadow-lg text-center 
-                    h-semi pb-3 p-3'>
+                    h-80 pb-3 p-3'>
                     <h1 className='text-center font-bold text-xl p-2'>{project.name}</h1>
-                    <img  className='h-1/3 w-full object-contain' src={project.image} alt="Application UI Screenshot" />
                     <h4 className='mt-4 font-Quicksand p-2'>{project.description}</h4>
                     <div className='leading-relaxed'>
                     <p className='p-2'>{`Stack : ${project.stack}`}</p>
