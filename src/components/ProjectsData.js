@@ -5,7 +5,7 @@ export const projectsData = [
         'Uses OpenWeathers API to display Real-time weather of any city',
       stack: ['Javascript ', 'OpenWeather API ', 'Flex Layout'],
       sourceCode: 'https://github.com/N-Musa/Weatherman_app',
-      livePreview: 'https://github.com',
+      livePreview: 'https://weathermanapp.netlify.app/',
     },
     {
       name: 'Expense Tracker App',
