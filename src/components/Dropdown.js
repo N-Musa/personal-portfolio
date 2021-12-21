@@ -22,7 +22,7 @@ const Dropdown = ({ isOpen, toggle }) => {
                 <a href="https://twitter.com/iMusaO9" target='_blank' rel='noopener noreferrer'>
                     <BsTwitter />
                 </a>
-                <a href="https://linkedin.com" target='_blank' rel='noopener noreferrer'>
+                <a href="www.linkedin.com/in/nuradin-musa" target='_blank' rel='noopener noreferrer'>
                     <AiFillLinkedin />
                 </a>
             </div>
