@@ -21,7 +21,7 @@ export const projectsData = [
         'Expiremented with Implementation of RECOIL.js for State Management, and Firebase as a Backend',
       stack: ['React js ', 'Recoil js ', 'TailwindCSS'],
       sourceCode: 'https://github.com/N-Musa/CRUD',
-      livePreview: 'https://github.com',
+      livePreview: 'https://crud-w-firebase.netlify.app/',
     },
     {
       name: 'Extension for Visual Studio Code',
