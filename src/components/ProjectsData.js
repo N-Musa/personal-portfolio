@@ -1,7 +1,6 @@
 export const projectsData = [
     {
       name: 'Weather App',
-      image: 'https://raw.githubusercontent.com/N-Musa/Weatherman_app/master/dist/img/app_screenshot.png',
       description:
         'Uses OpenWeathers API to display Real-time weather of any city',
       stack: ['Javascript ', 'OpenWeather API ', 'Flex Layout'],
@@ -10,7 +9,6 @@ export const projectsData = [
     },
     {
       name: 'Expense Tracker App',
-      image: 'https://raw.githubusercontent.com/N-Musa/expense__tracker/master/dist/img/app.png',
       description:
         'This Project helped understand different ways of manipulating DOM elements ',
       stack: [' Vanilla Javascript ', 'Flex Layout For Resposive UI Design'],
@@ -19,7 +17,6 @@ export const projectsData = [
     },
     {
       name: 'CRUD',
-      image: '',
       description:
         'Expiremented with Implementation of RECOIL.js for State Management, and Firebase as a Backend',
       stack: ['React js ', 'Recoil js ', 'TailwindCSS'],
@@ -28,7 +25,6 @@ export const projectsData = [
     },
     {
       name: 'Extension for Visual Studio Code',
-      image: 'https://raw.githubusercontent.com/N-Musa/Vscode_blm_Snippet/master/Icon/icon.png',
       description:
         'a Vscode extension that i made a while back which generates a boiletplate for BulmaCSS which is a CSS Framework',
         stack: [ ],
@@ -37,7 +33,6 @@ export const projectsData = [
     },
     {
       name: 'Federal Elections Votes Count API',
-      image: '',
       description:
         'Using JSON server Node Module I spinned up this mock REST API containing Polls Data(2021) for a projects that I am currently working on ',
         stack: [ ],
