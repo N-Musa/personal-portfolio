@@ -13,7 +13,7 @@ export const projectsData = [
         'This Project helped understand different ways of manipulating DOM elements ',
       stack: [' Vanilla Javascript ', 'Flex Layout For Resposive UI Design'],
       sourceCode: 'https://github.com/N-Musa/expense__tracker',
-      livePreview: 'https://github.com',
+      livePreview: 'https://expense-tracker-n-musa.netlify.app/',
     },
     {
       name: 'CRUD',
