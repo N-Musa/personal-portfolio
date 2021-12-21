@@ -34,7 +34,7 @@ const Contact = () => {
                 <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-16">
                     <div className=" text-center">
                         <img src={Lizard} alt='end-of-road-gif' />
-                        <a href="mailto:m.nuradin@outlook.com" className="underline mt-3 block text-lg">m.nuradin@outlook.com    
+                        <a href="mailto:m.nuradin@outlook.com" className="underline mt-3 block text-lg">m.nuradin@outlook.com
                         </a>
                         <div className='flex space-x-8 text-3xl mt-4 p-1  justify-center'>
                             <a href="https://github.com/N-Musa?tab=repositories" target='_blank' rel='noopener noreferrer'>
@@ -43,7 +43,7 @@ const Contact = () => {
                             <a href="https://twitter.com/iMusaO9" target='_blank' rel='noopener noreferrer'>
                                 <BsTwitter />
                             </a>
-                            <a href="https://linkedin.com" target='_blank' rel='noopener noreferrer'>
+                            <a href="www.linkedin.com/in/nuradin-musa" target='_blank' rel='noopener noreferrer'>
                                 <AiFillLinkedin />
                             </a>
                         </div>
@@ -52,8 +52,8 @@ const Contact = () => {
                         <label className="block mb-2 text-xl font-bold">Name</label>
                         <input className="w-full border border-input-border bg-input px-4 py-4"
                             name='name'
-                            placeholder='Name...' 
-                            required/>
+                            placeholder='Name...'
+                            required />
                         <label className="block mb-2 text-xl font-bold">Email</label>
                         <input type="email" className="w-full border border-input-border bg-input px-4 py-4"
                             name='email'
