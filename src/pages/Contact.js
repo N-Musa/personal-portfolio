@@ -10,19 +10,19 @@ import { BsTwitter } from 'react-icons/bs';
 const Contact = () => {
 
     const notify = () => toast.success('Thank you! your message was sent')
-
+    
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm(process.env.REACT_APP_PROVIDER, process.env.REACT_APP_TEMPLATE_ID, process.env.REACT_APP_USER_ID, form.current)
+        emailjs.sendForm(process.env.REACT_APP_PROVIDER, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_USER_ID)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
             });
-        e.target.reset()
+        form.current.reset()
     }
     return (
         <div className="container mt-14 flex flex-col justify-center items-center mx-auto px-8 md:px-14 lg:px-24 w-full ">
