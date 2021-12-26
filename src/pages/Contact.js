@@ -11,13 +11,12 @@ const Contact = () => {
 
     const notify = () => toast.success('Thank you! your message was sent')
 
-
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm(process.env.REACT_APP_PROVIDER, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_USER_ID)
+        emailjs.sendForm(process.env.REACT_APP_PROVIDER, process.env.REACT_APP_TEMPLATE_ID, process.env.REACT_APP_USER_ID, form.current)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
